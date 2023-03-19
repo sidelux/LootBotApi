@@ -1,0 +1,25 @@
+{
+  "name": "lootbot_api",
+  "version": "1.0.0",
+  "description": "Public API for LootBot ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "API",
+    "LootBot"
+  ],
+  "author": "Federico Xella",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.0.0",
+    "express-subdomain": "^1.0.5",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "jsesc": "^2.5.2",
+    "mysql": "^2.17.1"
+  }
+}
