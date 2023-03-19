@@ -1,0 +1,9 @@
+var config = {};
+
+config.dbhost = "";
+
+config.dbuser = "";
+config.dbpassword = "";
+config.dbdatabase = "";
+
+module.exports = config;
