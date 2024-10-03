@@ -744,6 +744,7 @@ api.get('/v2/:token/global/ranking', function(req, res) {
 				res.json(json_response);
 				return;
 			}
+			/*
 			else {
 				if (rows[0].global_eventon == 0) {
 					json_response = {
@@ -754,6 +755,7 @@ api.get('/v2/:token/global/ranking', function(req, res) {
 					return;
 				}
 			}
+			*/
 
 			const global_cap = rows[0].global_cap;
 
@@ -828,6 +830,7 @@ api.get('/v2/:token/global/ranking/:name', function(req, res) {
 				res.json(json_response);
 				return;
 			}
+			/*
 			else {
 				if (rows[0].global_eventon == 0) {
 					json_response = {
@@ -838,6 +841,7 @@ api.get('/v2/:token/global/ranking/:name', function(req, res) {
 					return;
 				}
 			}
+			*/
 
 			const global_cap = rows[0].global_cap;
 
